@@ -6,7 +6,7 @@ Aparentemente o `nvm-windows` tem problema com diretórios com espaço (C:/Meu U
 Mas como é uma ferramente muito útil eu resolvi desenvolver algo parecido, mesmo que bem mais simples.  
 
 ## Instalação
-Baixe a ultima release.  
+[Baixe](https://github.com/Tiagocf2/nvm--node-versionamento-maneiro/archive/refs/tags/nvm-v0.1.zip) a ultima release.  
 
 Extraia em algum diretório.  
 
