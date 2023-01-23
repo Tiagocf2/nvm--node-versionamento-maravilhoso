@@ -26,7 +26,7 @@ Extraia em algum diretório que não precise de permissão para acessar.
 
 Copie o caminho e use o comando `nvm config <diretorio>`, onde `diretorio` é o caminho para o diretório.  
 
-Também é possivel usar o comando `nvm config -h` para ver a instruções.
+Também é possivel usar o comando `nvm config -h` para ver as instruções.
 
 ## Como usar
 Utilize o comando `nvm list` para ver as versões disponíveis.  
