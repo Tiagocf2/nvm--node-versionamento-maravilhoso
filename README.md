@@ -6,7 +6,7 @@ Aparentemente o `nvm-windows` tem problema com diretórios com espaço (C:/Meu U
 Mas como é uma ferramente muito útil eu resolvi desenvolver algo parecido, mesmo que bem mais simples.  
 
 ## Instalação
-[Baixe](https://github.com/Tiagocf2/nvm--node-versionamento-maneiro/archive/refs/tags/nvm-v0.1.zip) a ultima release.  
+[Baixe aqui](https://github.com/Tiagocf2/nvm--node-versionamento-maneiro/archive/refs/tags/nvm-v0.1.zip) a ultima release.  
 
 Extraia em algum diretório.  
 
@@ -20,7 +20,7 @@ Abra o prompt de comando e digite: `nvm`
 Deverá aparecer a mensagem configuração.
 
 ## Configurar
-Baixe alguma [versão do node](https://nodejs.org/en/download/releases/) manualmente.  
+Baixe alguma [versão do node](https://nodejs.org/en/download/releases/) manualmente. Apenas o binário.
 
 Extraia em algum diretório que não precise de permissão para acessar.  
 
