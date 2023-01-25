@@ -1,6 +1,6 @@
 # NVM para Windows
 
-_NVM significa Node Versionamento Maneiro e não Node Version Manager, ok_
+_NVM significa Node Versionamento Maravilhoso e não Node Version Manager, ok_
 
 Aparentemente o `nvm-windows` tem problema com diretórios com espaço (C:/Meu Usuario/etc) e não funciona.  
 Mas como é uma ferramente muito útil eu resolvi desenvolver algo parecido, mesmo que bem mais simples.  
