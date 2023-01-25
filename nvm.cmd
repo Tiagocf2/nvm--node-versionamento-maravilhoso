@@ -32,13 +32,23 @@ if [%1] == [] (
 @echo.
 goto :configureHelp
 )
-if not exist "%1\" (
+set dir=%1
+shift
+:loop
+if not [%1] == [] (
+set dir=%dir% %1
+shift
+goto loop
+)
+
+if not exist "%dir%\" (
 @echo O diretório especificado não existe
 exit
 )
-setx NODE_DIR %1 > NUL
+
+SETX NODE_DIR "%dir%" > NUL
 @echo O NVM foi configurado com sucesso!
-@echo use o comando 
+@echo use o comando 'help' para mais informações.
 exit
 
 :list
