@@ -11,10 +11,8 @@ Mas como é uma ferramente muito útil eu resolvi desenvolver algo parecido, mes
 Extraia em algum diretório.  
 
 Copie o caminho do diretório para a variável `PATH`.  
-  - ou use o seguinte comando:   
-    `setx PATH "%PATH%;<diretorio>"` 
-    
-    Onde `diretorio` é o caminho para o diretório.  
+Também é necessário adicionar o caminho para a pasta do NODE da seguinte forma:  
+`%NODE_DIR%\%NODE_VERSION%`  
 
 Abra o prompt de comando e digite: `nvm`  
 Deverá aparecer a mensagem configuração.
