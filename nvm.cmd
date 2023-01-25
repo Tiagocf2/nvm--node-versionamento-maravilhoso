@@ -47,8 +47,9 @@ exit
 )
 
 SETX NODE_DIR "%dir%" > NUL
+REM SETX PATH %PATH%;%dir%\%%NODE_VERSION%%; > NUL
 @echo O NVM foi configurado com sucesso!
-@echo use o comando 'help' para mais informações.
+@echo Use o comando 'help' para mais informações.
 exit
 
 :list
