@@ -47,6 +47,7 @@ exit
 )
 
 SETX NODE_DIR "%dir%" > NUL
+SET NODE_DIR="%dir%" > NUL
 REM SETX PATH %PATH%;%dir%\%%NODE_VERSION%%; > NUL
 @echo O NVM foi configurado com sucesso!
 @echo Use o comando 'help' para mais informações.
@@ -68,7 +69,8 @@ if not exist "%NODE_DIR%\%1\" (
   @echo.
   goto list
 )
-setx NODE_VERSION %1 > NUL
+SETX NODE_VERSION %1 > NUL
+SET NODE_VERSION %1 > NUL
 @echo Usando NodeJs %1
 exit
 
