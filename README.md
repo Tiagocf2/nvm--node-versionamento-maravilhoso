@@ -20,7 +20,7 @@ Deverá aparecer a mensagem configuração.
 ## Configurar
 Baixe alguma [versão do node](https://nodejs.org/en/download/releases/) manualmente. Apenas o binário.
 
-Extraia em algum diretório que não precise de permissão para acessar.  
+Extraia em algum diretório à sua escolha.
 
 Copie o caminho e use o comando `nvm config <diretorio>`, onde `diretorio` é o caminho para o diretório.  
 
